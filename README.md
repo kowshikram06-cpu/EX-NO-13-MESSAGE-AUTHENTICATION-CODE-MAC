@@ -51,7 +51,7 @@ unsigned int calculate_mac(const char *message, const char *key)
     }
 
     for (i = 0; i < strlen(key); i++)
-    { 
+    {  
         mac ^= key[i];
     }
 
